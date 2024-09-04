@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашнее задание</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .carousel-inner img {
+            max-height: 500px; /* Установите желаемую максимальную высоту */
+            object-fit: contain; /* Сохраняйте пропорции изображения */
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="bud.png" alt="Bootstrap" width="30" height="24">
+                  </a>
+                <a class="navbar-brand" href="#">Красные командиры</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Ссылка</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Выпадающий список
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Действие</a></li>
+                        <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">Отключенная</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                    <button class="btn btn-outline-success" type="submit">Поиск</button>
+                  </form>
+                </div>
+              </div>
+    </nav>
+
+    <div class="container text-center">
+
+      <div class="row">
+        <div class="col">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Kot.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="shor.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="bud.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+              </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container text-center p-4">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Щорс Николай Александрович</h5>
+                <p class="card-text">(25 мая (6 июня) 1895 — 30 августа 1919) — офицер военного времени Русской императорской армии,
+                    затем — командир украинских красногвардейских повстанческих формирований, начальник дивизии
+                    Красной Армии времён Гражданской войны в России, член РКП(б) с осени 1918 года.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Будённый Семён Михайлович</h5>
+                <p class="card-text">(13 (25) апреля 1883, Козюрин, Российская империя — 26 октября 1973, Москва, РСФСР, СССР) — советский военный деятель и полководец,
+                    один из создателей кавалерии в РСФСР и СССР и один из первых Маршалов Советского Союза (1935).
+                    Командующий Первой конной армией РККА в годы Гражданской войны.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Котовский Григорий Иванович</h5>
+                <p class="card-text"> (12 [24] июня 1881 — 6 августа 1925) — российский революционер, советский военный и политический деятель,
+                    герой Гражданской войны в России.
+                    Член Центрального Исполнительного Комитета СССР, член Реввоенсовета СССР. Легендарный герой советского фольклора и художественной литературы.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container text-start">
+      <div class="row">
+         <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Расхождения во взглядах Белых и Красных
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Еще в августе 1917 года состоялась попытка государственного переворота – Корниловский мятеж. Высший командный состав армии был недоволен действиями Временного правительства. Многие не понимали значение и необходимость для России либеральных преобразований. За национальные движения на окраинах империи, по мнению генералов армии также несло ответственность Временное правительство. Целью Белых было возрождение Российской империи в тех границах, в которых удастся, естественно без Финляндии и Польши, но хотя бы с Украиной и Белоруссией. Опорой Белых было часть офицерского состава, а также часть дворянства, не желающего допустить никаких социалистических преобразований, в том числе «земли – крестьянам». Сам термин «белые» - это подражание Французской революции 18 века, там «роялисты» (монархисты) выступали под белым флагом.
+
+Красные, возглавляемые РСДРП (б) или просто большевиками, стремились создать новый тип государства – диктатуру пролетариата, стремившегося создать новое общество, идущее к коммунизму. Естественно в таком обществе не было место ни монархистам, ни либералам. С приходом к власти после октября 1917 года они объявили о создании новой страны, РСФСР, и полностью отказались считать себя приемниками Российской империи. На остатках империи большевики хотели создать местные социалистические республики, чтобы потом при возможности объединиться.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Причины победы красных
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Главное отличие "красных" и "белых" заключалось в том, что коммунисты с самого начала войны смогли создать централизованную власть, которой подчинялась вся завоеванная ими территория.  Большевики умело пользовались пропагандой. Именно этот инструмент позволил внушить народу, что «красные» - защитники Родины и Отечества, а «белые» - сторонники империалистов и иностранных оккупантов.
+                      Благодаря политике «военного коммунизма» смогли мобилизовать ресурсы и создать сильную армию привлечение огромного количества военных специалистов, которые сделали армию профессиональной.
+                      Нахождение в руках большевиков промышленной базы страны и значительной части резервов.
+
+
+                  </div>
+                </div>
+              </div>
+         </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
